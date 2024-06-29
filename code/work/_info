@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vparking
+Z0 !s110 1719610205
+!i10b 1
+!s100 UElcfoKf6Q:Wo?BEDz8z30
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I`0FZcD@oWOjV2:ISN:GAL2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dF:/DSD/Extra score
+w1719607686
+8F:\DSD\Extra score\parking.v
+FF:\DSD\Extra score\parking.v
+!i122 26
+L0 2 67
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1719610205.000000
+!s107 F:\DSD\Extra score\parking.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:\DSD\Extra score\parking.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vtb_parking
+R0
+!i10b 1
+!s100 g?3aE8=lJAaAJ@>4>?`bB3
+R1
+I8Z?CmTFDDQPH^mRkF^z4<3
+R2
+R3
+w1719608150
+8F:\DSD\Extra score\tb.v
+FF:\DSD\Extra score\tb.v
+!i122 27
+L0 1 171
+R4
+r1
+!s85 0
+31
+R5
+!s107 F:\DSD\Extra score\tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:\DSD\Extra score\tb.v|
+!i113 1
+R6
+R7

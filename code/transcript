@@ -1,0 +1,2974 @@
+# Compile of parking.v was successful.
+# Compile of tb.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of parking.v was successful.
+# Compile of tb.v failed with 5 errors.
+# 2 compiles, 1 failed with 5 errors.
+# Compile of parking.v was successful.
+# Compile of tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of parking.v was successful.
+# Compile of tb.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_parking
+# vsim -gui work.tb_parking 
+# Start time: 01:20:15 on Jun 29,2024
+# Loading work.tb_parking
+# Loading work.parking
+# WARNING: No extended dataflow license exists
+run -all
+# Time:                    0
+# ,
+# 
+#         vorodi  (reset: 1, car_entered: 0, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                   10
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 0, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Initial State:
+# uni_parked_car =   0, parked_car =   0
+# uni_vacated_space = 500, vacated_space = 200
+# uni_is_vacated_space = 1, is_vacated_space = 1
+# Time:                  110
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  115
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:   1, parked_car:   0, uni_vacated_space: 499, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  125
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:   2, parked_car:   0, uni_vacated_space: 498, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  135
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:   3, parked_car:   0, uni_vacated_space: 497, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  145
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:   4, parked_car:   0, uni_vacated_space: 496, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  155
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:   5, parked_car:   0, uni_vacated_space: 495, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  165
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:   6, parked_car:   0, uni_vacated_space: 494, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  175
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:   7, parked_car:   0, uni_vacated_space: 493, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  185
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:   8, parked_car:   0, uni_vacated_space: 492, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  195
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:   9, parked_car:   0, uni_vacated_space: 491, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  205
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   0, uni_vacated_space: 490, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# State after one university car enters:
+# uni_parked_car =  10, parked_car =   0
+# uni_vacated_space = 490, vacated_space = 200
+# uni_is_vacated_space = 1, is_vacated_space = 1
+# Time:                  210
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   0, uni_vacated_space: 490, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  215
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   1, uni_vacated_space: 490, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  225
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   2, uni_vacated_space: 490, vacated_space: 198, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  235
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   3, uni_vacated_space: 490, vacated_space: 197, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  245
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   4, uni_vacated_space: 490, vacated_space: 196, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  255
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   5, uni_vacated_space: 490, vacated_space: 195, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  265
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   6, uni_vacated_space: 490, vacated_space: 194, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  275
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   7, uni_vacated_space: 490, vacated_space: 193, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  285
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   8, uni_vacated_space: 490, vacated_space: 192, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  295
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   9, uni_vacated_space: 490, vacated_space: 191, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  305
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:  10, parked_car:  10, uni_vacated_space: 490, vacated_space: 190, uni_is_vacated_space: 1, is_vacated_space: 1)
+# State after one non-university car enters:
+# uni_parked_car =  10, parked_car =  10
+# uni_vacated_space = 490, vacated_space = 190
+# uni_is_vacated_space = 1, is_vacated_space = 1
+# Time:                  310
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:  10, parked_car:  10, uni_vacated_space: 490, vacated_space: 190, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  315
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:   9, parked_car:  11, uni_vacated_space: 491, vacated_space: 189, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  325
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:   8, parked_car:  12, uni_vacated_space: 492, vacated_space: 188, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  335
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:   7, parked_car:  13, uni_vacated_space: 493, vacated_space: 187, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  345
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:   6, parked_car:  14, uni_vacated_space: 494, vacated_space: 186, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  355
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:   5, parked_car:  15, uni_vacated_space: 495, vacated_space: 185, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  365
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:   4, parked_car:  16, uni_vacated_space: 496, vacated_space: 184, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  375
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:   3, parked_car:  17, uni_vacated_space: 497, vacated_space: 183, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  385
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:   2, parked_car:  18, uni_vacated_space: 498, vacated_space: 182, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  395
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:   1, parked_car:  19, uni_vacated_space: 499, vacated_space: 181, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  405
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  20, uni_vacated_space: 500, vacated_space: 180, uni_is_vacated_space: 1, is_vacated_space: 1)
+# State after one university car exits:
+# uni_parked_car =   0, parked_car =  20
+# uni_vacated_space = 500, vacated_space = 180
+# uni_is_vacated_space = 1, is_vacated_space = 1
+# Time:                  410
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  20, uni_vacated_space: 500, vacated_space: 180, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  415
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  19, uni_vacated_space: 500, vacated_space: 181, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  425
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  18, uni_vacated_space: 500, vacated_space: 182, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  435
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  17, uni_vacated_space: 500, vacated_space: 183, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  445
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  16, uni_vacated_space: 500, vacated_space: 184, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  455
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  15, uni_vacated_space: 500, vacated_space: 185, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  465
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  14, uni_vacated_space: 500, vacated_space: 186, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  475
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  13, uni_vacated_space: 500, vacated_space: 187, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  485
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  12, uni_vacated_space: 500, vacated_space: 188, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  495
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  11, uni_vacated_space: 500, vacated_space: 189, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  505
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  10, uni_vacated_space: 500, vacated_space: 190, uni_is_vacated_space: 1, is_vacated_space: 1)
+# State after one non-university car exits:
+# uni_parked_car =   0, parked_car =  10
+# uni_vacated_space = 500, vacated_space = 190
+# uni_is_vacated_space = 1, is_vacated_space = 1
+# Time:                  510
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  10, uni_vacated_space: 500, vacated_space: 190, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  515
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   9, uni_vacated_space: 500, vacated_space: 191, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  525
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   8, uni_vacated_space: 500, vacated_space: 192, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  535
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   7, uni_vacated_space: 500, vacated_space: 193, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  545
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   6, uni_vacated_space: 500, vacated_space: 194, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  555
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   5, uni_vacated_space: 500, vacated_space: 195, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  565
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   4, uni_vacated_space: 500, vacated_space: 196, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  575
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   3, uni_vacated_space: 500, vacated_space: 197, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  585
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   2, uni_vacated_space: 500, vacated_space: 198, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  595
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   1, uni_vacated_space: 500, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  605
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# State with hour = 10:
+# uni_parked_car =   0, parked_car =   0
+# uni_vacated_space = 500, vacated_space = 200
+# uni_is_vacated_space = 1, is_vacated_space = 1
+# Time:                  615
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   1, uni_vacated_space: 500, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  625
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  635
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   1, uni_vacated_space: 500, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  645
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  655
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   1, uni_vacated_space: 500, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  665
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  675
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   1, uni_vacated_space: 500, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  685
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  695
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   1, uni_vacated_space: 500, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  705
+# ,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# ** Note: $stop    : F:/DSD/Extra score/tb.v(100)
+#    Time: 710 ps  Iteration: 0  Instance: /tb_parking
+# Break in Module tb_parking at F:/DSD/Extra score/tb.v line 100
+quit -sim
+# End time: 01:23:35 on Jun 29,2024, Elapsed time: 0:03:20
+# Errors: 0, Warnings: 9
+# Compile of parking.v was successful.
+# Compile of tb.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_parking
+# vsim -gui work.tb_parking 
+# Start time: 01:23:45 on Jun 29,2024
+# Loading work.tb_parking
+# Loading work.parking
+run -all
+# Time:                    0,
+# 
+#         vorodi  (reset: 1, car_entered: 0, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Initial State:
+# Time:                   10,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                   15,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   1, parked_car:   0, uni_vacated_space: 499, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                   25,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   2, parked_car:   0, uni_vacated_space: 498, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                   35,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   3, parked_car:   0, uni_vacated_space: 497, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                   45,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   4, parked_car:   0, uni_vacated_space: 496, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                   55,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   5, parked_car:   0, uni_vacated_space: 495, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                   65,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   6, parked_car:   0, uni_vacated_space: 494, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                   75,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   7, parked_car:   0, uni_vacated_space: 493, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                   85,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   8, parked_car:   0, uni_vacated_space: 492, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                   95,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   9, parked_car:   0, uni_vacated_space: 491, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  105,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   0, uni_vacated_space: 490, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# State after one university car enters:
+# Time:                  110,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   0, uni_vacated_space: 490, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  115,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   1, uni_vacated_space: 490, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  125,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   2, uni_vacated_space: 490, vacated_space: 198, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  135,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   3, uni_vacated_space: 490, vacated_space: 197, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  145,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   4, uni_vacated_space: 490, vacated_space: 196, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  155,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   5, uni_vacated_space: 490, vacated_space: 195, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  165,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   6, uni_vacated_space: 490, vacated_space: 194, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  175,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   7, uni_vacated_space: 490, vacated_space: 193, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  185,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   8, uni_vacated_space: 490, vacated_space: 192, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  195,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   9, uni_vacated_space: 490, vacated_space: 191, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  205,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:  10, parked_car:  10, uni_vacated_space: 490, vacated_space: 190, uni_is_vacated_space: 1, is_vacated_space: 1)
+# State after one non-university car enters:
+# Time:                  210,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+#         khoroji (uni_parked_car:  10, parked_car:  10, uni_vacated_space: 490, vacated_space: 190, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  215,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+#         khoroji (uni_parked_car:   9, parked_car:  11, uni_vacated_space: 491, vacated_space: 189, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  225,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+#         khoroji (uni_parked_car:   8, parked_car:  12, uni_vacated_space: 492, vacated_space: 188, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  235,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+#         khoroji (uni_parked_car:   7, parked_car:  13, uni_vacated_space: 493, vacated_space: 187, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  245,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+#         khoroji (uni_parked_car:   6, parked_car:  14, uni_vacated_space: 494, vacated_space: 186, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  255,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+#         khoroji (uni_parked_car:   5, parked_car:  15, uni_vacated_space: 495, vacated_space: 185, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  265,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+#         khoroji (uni_parked_car:   4, parked_car:  16, uni_vacated_space: 496, vacated_space: 184, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  275,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+#         khoroji (uni_parked_car:   3, parked_car:  17, uni_vacated_space: 497, vacated_space: 183, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  285,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+#         khoroji (uni_parked_car:   2, parked_car:  18, uni_vacated_space: 498, vacated_space: 182, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  295,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+#         khoroji (uni_parked_car:   1, parked_car:  19, uni_vacated_space: 499, vacated_space: 181, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  305,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  20, uni_vacated_space: 500, vacated_space: 180, uni_is_vacated_space: 1, is_vacated_space: 1)
+# State after one university car exits:
+# Time:                  310,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  20, uni_vacated_space: 500, vacated_space: 180, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  315,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  19, uni_vacated_space: 500, vacated_space: 181, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  325,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  18, uni_vacated_space: 500, vacated_space: 182, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  335,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  17, uni_vacated_space: 500, vacated_space: 183, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  345,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  16, uni_vacated_space: 500, vacated_space: 184, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  355,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  15, uni_vacated_space: 500, vacated_space: 185, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  365,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  14, uni_vacated_space: 500, vacated_space: 186, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  375,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  13, uni_vacated_space: 500, vacated_space: 187, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  385,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  12, uni_vacated_space: 500, vacated_space: 188, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  395,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  11, uni_vacated_space: 500, vacated_space: 189, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  405,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  10, uni_vacated_space: 500, vacated_space: 190, uni_is_vacated_space: 1, is_vacated_space: 1)
+# State after one non-university car exits:
+# Time:                  410,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  10, uni_vacated_space: 500, vacated_space: 190, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  415,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   9, uni_vacated_space: 500, vacated_space: 191, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  425,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   8, uni_vacated_space: 500, vacated_space: 192, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  435,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   7, uni_vacated_space: 500, vacated_space: 193, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  445,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   6, uni_vacated_space: 500, vacated_space: 194, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  455,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   5, uni_vacated_space: 500, vacated_space: 195, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  465,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   4, uni_vacated_space: 500, vacated_space: 196, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  475,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   3, uni_vacated_space: 500, vacated_space: 197, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  485,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   2, uni_vacated_space: 500, vacated_space: 198, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  495,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   1, uni_vacated_space: 500, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  505,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# State with hour = 10:
+# Time:                  515,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   1, uni_vacated_space: 500, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  525,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  535,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   1, uni_vacated_space: 500, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  545,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  555,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   1, uni_vacated_space: 500, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  565,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  575,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   1, uni_vacated_space: 500, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  585,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  595,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   1, uni_vacated_space: 500, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  605,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# ** Note: $stop    : F:/DSD/Extra score/tb.v(92)
+#    Time: 610 ps  Iteration: 0  Instance: /tb_parking
+# Break in Module tb_parking at F:/DSD/Extra score/tb.v line 92
+quit -sim
+# End time: 01:24:36 on Jun 29,2024, Elapsed time: 0:00:51
+# Errors: 0, Warnings: 2
+# Compile of parking.v was successful.
+# Compile of tb.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_parking
+# vsim -gui work.tb_parking 
+# Start time: 01:24:48 on Jun 29,2024
+# Loading work.tb_parking
+# Loading work.parking
+run -all
+# Time:                    0
+# 
+#         vorodi  (reset: 1, car_entered: 0, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Initial State:
+# Time:                   10
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                   15
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   1, parked_car:   0, uni_vacated_space: 499, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                   25
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   2, parked_car:   0, uni_vacated_space: 498, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                   35
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   3, parked_car:   0, uni_vacated_space: 497, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                   45
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   4, parked_car:   0, uni_vacated_space: 496, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                   55
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   5, parked_car:   0, uni_vacated_space: 495, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                   65
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   6, parked_car:   0, uni_vacated_space: 494, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                   75
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   7, parked_car:   0, uni_vacated_space: 493, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                   85
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   8, parked_car:   0, uni_vacated_space: 492, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                   95
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   9, parked_car:   0, uni_vacated_space: 491, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  105
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   0, uni_vacated_space: 490, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# State after one university car enters:
+# Time:                  110
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   0, uni_vacated_space: 490, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  115
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   1, uni_vacated_space: 490, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  125
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   2, uni_vacated_space: 490, vacated_space: 198, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  135
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   3, uni_vacated_space: 490, vacated_space: 197, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  145
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   4, uni_vacated_space: 490, vacated_space: 196, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  155
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   5, uni_vacated_space: 490, vacated_space: 195, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  165
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   6, uni_vacated_space: 490, vacated_space: 194, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  175
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   7, uni_vacated_space: 490, vacated_space: 193, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  185
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   8, uni_vacated_space: 490, vacated_space: 192, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  195
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   9, uni_vacated_space: 490, vacated_space: 191, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  205
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:  10, parked_car:  10, uni_vacated_space: 490, vacated_space: 190, uni_is_vacated_space: 1, is_vacated_space: 1)
+# State after one non-university car enters:
+# Time:                  210
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+#         khoroji (uni_parked_car:  10, parked_car:  10, uni_vacated_space: 490, vacated_space: 190, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  215
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+#         khoroji (uni_parked_car:   9, parked_car:  11, uni_vacated_space: 491, vacated_space: 189, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  225
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+#         khoroji (uni_parked_car:   8, parked_car:  12, uni_vacated_space: 492, vacated_space: 188, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  235
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+#         khoroji (uni_parked_car:   7, parked_car:  13, uni_vacated_space: 493, vacated_space: 187, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  245
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+#         khoroji (uni_parked_car:   6, parked_car:  14, uni_vacated_space: 494, vacated_space: 186, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  255
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+#         khoroji (uni_parked_car:   5, parked_car:  15, uni_vacated_space: 495, vacated_space: 185, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  265
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+#         khoroji (uni_parked_car:   4, parked_car:  16, uni_vacated_space: 496, vacated_space: 184, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  275
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+#         khoroji (uni_parked_car:   3, parked_car:  17, uni_vacated_space: 497, vacated_space: 183, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  285
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+#         khoroji (uni_parked_car:   2, parked_car:  18, uni_vacated_space: 498, vacated_space: 182, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  295
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+#         khoroji (uni_parked_car:   1, parked_car:  19, uni_vacated_space: 499, vacated_space: 181, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  305
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  20, uni_vacated_space: 500, vacated_space: 180, uni_is_vacated_space: 1, is_vacated_space: 1)
+# State after one university car exits:
+# Time:                  310
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  20, uni_vacated_space: 500, vacated_space: 180, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  315
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  19, uni_vacated_space: 500, vacated_space: 181, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  325
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  18, uni_vacated_space: 500, vacated_space: 182, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  335
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  17, uni_vacated_space: 500, vacated_space: 183, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  345
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  16, uni_vacated_space: 500, vacated_space: 184, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  355
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  15, uni_vacated_space: 500, vacated_space: 185, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  365
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  14, uni_vacated_space: 500, vacated_space: 186, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  375
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  13, uni_vacated_space: 500, vacated_space: 187, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  385
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  12, uni_vacated_space: 500, vacated_space: 188, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  395
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  11, uni_vacated_space: 500, vacated_space: 189, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  405
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  10, uni_vacated_space: 500, vacated_space: 190, uni_is_vacated_space: 1, is_vacated_space: 1)
+# State after one non-university car exits:
+# Time:                  410
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  10, uni_vacated_space: 500, vacated_space: 190, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  415
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   9, uni_vacated_space: 500, vacated_space: 191, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  425
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   8, uni_vacated_space: 500, vacated_space: 192, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  435
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   7, uni_vacated_space: 500, vacated_space: 193, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  445
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   6, uni_vacated_space: 500, vacated_space: 194, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  455
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   5, uni_vacated_space: 500, vacated_space: 195, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  465
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   4, uni_vacated_space: 500, vacated_space: 196, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  475
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   3, uni_vacated_space: 500, vacated_space: 197, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  485
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   2, uni_vacated_space: 500, vacated_space: 198, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  495
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   1, uni_vacated_space: 500, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  505
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# State with hour = 10:
+# Time:                  515
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   1, uni_vacated_space: 500, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  525
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  535
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   1, uni_vacated_space: 500, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  545
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  555
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   1, uni_vacated_space: 500, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  565
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  575
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   1, uni_vacated_space: 500, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  585
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  595
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   1, uni_vacated_space: 500, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  605
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# ** Note: $stop    : F:/DSD/Extra score/tb.v(92)
+#    Time: 610 ps  Iteration: 0  Instance: /tb_parking
+# Break in Module tb_parking at F:/DSD/Extra score/tb.v line 92
+quit -sim
+# End time: 01:25:43 on Jun 29,2024, Elapsed time: 0:00:55
+# Errors: 0, Warnings: 2
+# Compile of parking.v was successful.
+# Compile of tb.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_parking
+# vsim -gui work.tb_parking 
+# Start time: 01:25:54 on Jun 29,2024
+# Loading work.tb_parking
+# Loading work.parking
+run -all
+# Time:                    0|||||
+# 
+#         vorodi  (reset: 1, car_entered: 0, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Initial State:
+# Time:                   10|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                   15|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   1, parked_car:   0, uni_vacated_space: 499, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                   25|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   2, parked_car:   0, uni_vacated_space: 498, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                   35|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   3, parked_car:   0, uni_vacated_space: 497, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                   45|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   4, parked_car:   0, uni_vacated_space: 496, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                   55|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   5, parked_car:   0, uni_vacated_space: 495, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                   65|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   6, parked_car:   0, uni_vacated_space: 494, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                   75|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   7, parked_car:   0, uni_vacated_space: 493, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                   85|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   8, parked_car:   0, uni_vacated_space: 492, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                   95|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   9, parked_car:   0, uni_vacated_space: 491, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  105|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   0, uni_vacated_space: 490, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# State after one university car enters:
+# Time:                  110|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   0, uni_vacated_space: 490, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  115|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   1, uni_vacated_space: 490, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  125|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   2, uni_vacated_space: 490, vacated_space: 198, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  135|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   3, uni_vacated_space: 490, vacated_space: 197, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  145|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   4, uni_vacated_space: 490, vacated_space: 196, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  155|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   5, uni_vacated_space: 490, vacated_space: 195, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  165|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   6, uni_vacated_space: 490, vacated_space: 194, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  175|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   7, uni_vacated_space: 490, vacated_space: 193, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  185|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   8, uni_vacated_space: 490, vacated_space: 192, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  195|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:  10, parked_car:   9, uni_vacated_space: 490, vacated_space: 191, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  205|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:  10, parked_car:  10, uni_vacated_space: 490, vacated_space: 190, uni_is_vacated_space: 1, is_vacated_space: 1)
+# State after one non-university car enters:
+# Time:                  210|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+#         khoroji (uni_parked_car:  10, parked_car:  10, uni_vacated_space: 490, vacated_space: 190, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  215|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+#         khoroji (uni_parked_car:   9, parked_car:  11, uni_vacated_space: 491, vacated_space: 189, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  225|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+#         khoroji (uni_parked_car:   8, parked_car:  12, uni_vacated_space: 492, vacated_space: 188, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  235|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+#         khoroji (uni_parked_car:   7, parked_car:  13, uni_vacated_space: 493, vacated_space: 187, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  245|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+#         khoroji (uni_parked_car:   6, parked_car:  14, uni_vacated_space: 494, vacated_space: 186, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  255|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+#         khoroji (uni_parked_car:   5, parked_car:  15, uni_vacated_space: 495, vacated_space: 185, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  265|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+#         khoroji (uni_parked_car:   4, parked_car:  16, uni_vacated_space: 496, vacated_space: 184, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  275|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+#         khoroji (uni_parked_car:   3, parked_car:  17, uni_vacated_space: 497, vacated_space: 183, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  285|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+#         khoroji (uni_parked_car:   2, parked_car:  18, uni_vacated_space: 498, vacated_space: 182, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  295|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+#         khoroji (uni_parked_car:   1, parked_car:  19, uni_vacated_space: 499, vacated_space: 181, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  305|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  20, uni_vacated_space: 500, vacated_space: 180, uni_is_vacated_space: 1, is_vacated_space: 1)
+# State after one university car exits:
+# Time:                  310|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  20, uni_vacated_space: 500, vacated_space: 180, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  315|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  19, uni_vacated_space: 500, vacated_space: 181, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  325|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  18, uni_vacated_space: 500, vacated_space: 182, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  335|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  17, uni_vacated_space: 500, vacated_space: 183, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  345|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  16, uni_vacated_space: 500, vacated_space: 184, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  355|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  15, uni_vacated_space: 500, vacated_space: 185, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  365|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  14, uni_vacated_space: 500, vacated_space: 186, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  375|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  13, uni_vacated_space: 500, vacated_space: 187, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  385|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  12, uni_vacated_space: 500, vacated_space: 188, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  395|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  11, uni_vacated_space: 500, vacated_space: 189, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  405|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour:  0)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  10, uni_vacated_space: 500, vacated_space: 190, uni_is_vacated_space: 1, is_vacated_space: 1)
+# State after one non-university car exits:
+# Time:                  410|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:  10, uni_vacated_space: 500, vacated_space: 190, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  415|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   9, uni_vacated_space: 500, vacated_space: 191, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  425|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   8, uni_vacated_space: 500, vacated_space: 192, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  435|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   7, uni_vacated_space: 500, vacated_space: 193, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  445|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   6, uni_vacated_space: 500, vacated_space: 194, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  455|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   5, uni_vacated_space: 500, vacated_space: 195, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  465|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   4, uni_vacated_space: 500, vacated_space: 196, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  475|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   3, uni_vacated_space: 500, vacated_space: 197, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  485|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   2, uni_vacated_space: 500, vacated_space: 198, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  495|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   1, uni_vacated_space: 500, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  505|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# State with hour = 10:
+# Time:                  515|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   1, uni_vacated_space: 500, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  525|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  535|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   1, uni_vacated_space: 500, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  545|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  555|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   1, uni_vacated_space: 500, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  565|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  575|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   1, uni_vacated_space: 500, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  585|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  595|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   1, uni_vacated_space: 500, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# Time:                  605|||||
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# ** Note: $stop    : F:/DSD/Extra score/tb.v(92)
+#    Time: 610 ps  Iteration: 0  Instance: /tb_parking
+# Break in Module tb_parking at F:/DSD/Extra score/tb.v line 92
+quit -sim
+# End time: 02:27:59 on Jun 29,2024, Elapsed time: 1:02:05
+# Errors: 0, Warnings: 2
+# Compile of parking.v was successful.
+# Compile of tb.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_parking
+# vsim -gui work.tb_parking 
+# Start time: 02:28:11 on Jun 29,2024
+# Loading work.tb_parking
+# Loading work.parking
+run -all
+# reset and hour is seted between 8 and 13:
+# Time:                    0,
+# 
+#         vorodi  (reset: 1, car_entered: 0, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   x, parked_car:   x, uni_vacated_space:   x, vacated_space:   x, uni_is_vacated_space: x, is_vacated_space: x)
+# a uni car entered:
+# Time:                   10,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# a free car entered:
+# Time:                   20,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   1, parked_car:   0, uni_vacated_space: 499, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# a uni car exited:
+# Time:                   30,
+# 
+#         vorodi  (reset: 0, car_entered: 0, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour: 10)
+# 
+#         khoroji (uni_parked_car:   1, parked_car:   1, uni_vacated_space: 499, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# a free car exited:
+# Time:                   40,
+# 
+#         vorodi  (reset: 0, car_entered: 0, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   1, uni_vacated_space: 500, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# hour set to 13:
+# Time:                   50,
+# 
+#         vorodi  (reset: 0, car_entered: 0, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# hour set to 14:
+# Time:                   60,
+# 
+#         vorodi  (reset: 0, car_entered: 0, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of free cars is 0:
+# Time:                 2570,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of uni cars is 0:
+# Time:                 7580,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car: 500, parked_car:   0, uni_vacated_space:   0, vacated_space: 200, uni_is_vacated_space: 0, is_vacated_space: 1)
+# reset:
+# Time:                 7590,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car: 500, parked_car:   0, uni_vacated_space:   0, vacated_space: 200, uni_is_vacated_space: 0, is_vacated_space: 1)
+# hour set to 16:
+# Time:                 7600,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of free cars is 0:
+# Time:                12610,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of uni cars is 0:
+# Time:                14620,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# reset:
+# Time:                14630,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of free cars is 0:
+# Time:                17640,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of uni cars is 0:
+# Time:                21650,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# ** Note: $stop    : F:/DSD/Extra score/tb.v(161)
+#    Time: 21660 ps  Iteration: 0  Instance: /tb_parking
+# Break in Module tb_parking at F:/DSD/Extra score/tb.v line 161
+quit -sim
+# End time: 02:32:25 on Jun 29,2024, Elapsed time: 0:04:14
+# Errors: 0, Warnings: 2
+# Compile of parking.v was successful.
+# Compile of tb.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_parking
+# vsim -gui work.tb_parking 
+# Start time: 02:32:38 on Jun 29,2024
+# Loading work.tb_parking
+# Loading work.parking
+run -all
+# reset and hour is seted between 8 and 13:
+# Time:                   10,
+# 
+#         vorodi  (reset: 1, car_entered: 0, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# a uni car entered:
+# Time:                   20,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   1, parked_car:   0, uni_vacated_space: 499, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# a free car entered:
+# Time:                   30,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   1, parked_car:   1, uni_vacated_space: 499, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# a uni car exited:
+# Time:                   40,
+# 
+#         vorodi  (reset: 0, car_entered: 0, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   1, uni_vacated_space: 500, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# a free car exited:
+# Time:                   50,
+# 
+#         vorodi  (reset: 0, car_entered: 0, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# hour set to 13:
+# Time:                   60,
+# 
+#         vorodi  (reset: 0, car_entered: 0, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# hour set to 14:
+# Time:                   70,
+# 
+#         vorodi  (reset: 0, car_entered: 0, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of free cars is 0:
+# Time:                 2580,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   1, uni_vacated_space: 500, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of uni cars is 0:
+# Time:                 7590,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car: 500, parked_car:   0, uni_vacated_space:   0, vacated_space: 200, uni_is_vacated_space: 0, is_vacated_space: 1)
+# reset:
+# Time:                 7600,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# hour set to 16:
+# Time:                 7610,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of free cars is 0:
+# Time:                12620,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of uni cars is 0:
+# Time:                14630,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# reset:
+# Time:                14640,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of free cars is 0:
+# Time:                17650,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of uni cars is 0:
+# Time:                21660,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# ** Note: $stop    : F:/DSD/Extra score/tb.v(163)
+#    Time: 21670 ps  Iteration: 0  Instance: /tb_parking
+# Break in Module tb_parking at F:/DSD/Extra score/tb.v line 163
+quit -sim
+# End time: 02:35:01 on Jun 29,2024, Elapsed time: 0:02:23
+# Errors: 0, Warnings: 2
+# Compile of parking.v was successful.
+# Compile of tb.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_parking
+# vsim -gui work.tb_parking 
+# Start time: 02:35:12 on Jun 29,2024
+# Loading work.tb_parking
+# Loading work.parking
+run -all
+# reset and hour is seted between 8 and 13:
+# Time:                   10,
+# 
+#         vorodi  (reset: 1, car_entered: 0, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# a uni car entered:
+# Time:                   20,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   1, parked_car:   0, uni_vacated_space: 499, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# a free car entered:
+# Time:                   30,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   1, parked_car:   1, uni_vacated_space: 499, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# a uni car exited:
+# Time:                   40,
+# 
+#         vorodi  (reset: 0, car_entered: 0, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   1, uni_vacated_space: 500, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# a free car exited:
+# Time:                   50,
+# 
+#         vorodi  (reset: 0, car_entered: 0, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# hour set to 13:
+# Time:                   60,
+# 
+#         vorodi  (reset: 0, car_entered: 0, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 13)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# hour set to 14:
+# Time:                   70,
+# 
+#         vorodi  (reset: 0, car_entered: 0, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 14)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 250, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of free cars is 0:
+# Time:                 2580,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 14)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   1, uni_vacated_space: 500, vacated_space: 249, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of uni cars is 0:
+# Time:                 7590,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 14)
+# 
+#         khoroji (uni_parked_car: 500, parked_car:   0, uni_vacated_space:   0, vacated_space: 250, uni_is_vacated_space: 0, is_vacated_space: 1)
+# reset:
+# Time:                 7600,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 14)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 250, uni_is_vacated_space: 1, is_vacated_space: 1)
+# hour set to 16:
+# Time:                 7610,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 16)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 500, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of free cars is 0:
+# Time:                12620,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 16)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 500, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of uni cars is 0:
+# Time:                14630,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 16)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 500, uni_is_vacated_space: 1, is_vacated_space: 1)
+# reset:
+# Time:                14640,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 16)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 500, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of free cars is 0:
+# Time:                17650,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 16)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 500, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of uni cars is 0:
+# Time:                21660,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 16)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 500, uni_is_vacated_space: 1, is_vacated_space: 1)
+# ** Note: $stop    : F:/DSD/Extra score/tb.v(166)
+#    Time: 21670 ps  Iteration: 0  Instance: /tb_parking
+# Break in Module tb_parking at F:/DSD/Extra score/tb.v line 166
+quit -sim
+# End time: 02:37:06 on Jun 29,2024, Elapsed time: 0:01:54
+# Errors: 0, Warnings: 2
+# Compile of parking.v was successful.
+# Compile of tb.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_parking
+# vsim -gui work.tb_parking 
+# Start time: 02:37:18 on Jun 29,2024
+# Loading work.tb_parking
+# Loading work.parking
+quit -sim
+# End time: 02:42:28 on Jun 29,2024, Elapsed time: 0:05:10
+# Errors: 0, Warnings: 2
+# Compile of parking.v was successful.
+# Compile of tb.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_parking
+# vsim -gui work.tb_parking 
+# Start time: 02:42:38 on Jun 29,2024
+# Loading work.tb_parking
+# Loading work.parking
+run -all
+# reset and hour is seted between 8 and 13:
+# Time:                   10,
+# 
+#         vorodi  (reset: 1, car_entered: 0, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# a uni car entered:
+# Time:                   20,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   1, parked_car:   0, uni_vacated_space: 499, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# a free car entered:
+# Time:                   30,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   1, parked_car:   1, uni_vacated_space: 499, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# a uni car exited:
+# Time:                   40,
+# 
+#         vorodi  (reset: 0, car_entered: 0, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   1, uni_vacated_space: 500, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# a free car exited:
+# Time:                   50,
+# 
+#         vorodi  (reset: 0, car_entered: 0, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# hour set to 13:
+# Time:                   60,
+# 
+#         vorodi  (reset: 0, car_entered: 0, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 13)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# hour set to 14:
+# Time:                   70,
+# 
+#         vorodi  (reset: 0, car_entered: 0, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 14)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 250, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of free cars is 0:
+# Time:                 2580,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 14)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   1, uni_vacated_space: 500, vacated_space: 249, uni_is_vacated_space: 1, is_vacated_space: 1)
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# jmojo
+# the space of uni cars is 0:
+# Time:                 7590,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 14)
+# 
+#         khoroji (uni_parked_car: 500, parked_car:   0, uni_vacated_space:   0, vacated_space: 250, uni_is_vacated_space: 0, is_vacated_space: 1)
+# reset:
+# Time:                 7600,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 14)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 250, uni_is_vacated_space: 1, is_vacated_space: 1)
+# hour set to 16:
+# Time:                 7610,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 16)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 500, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of free cars is 0:
+# Time:                12620,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 16)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 500, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of uni cars is 0:
+# Time:                14630,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 16)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 500, uni_is_vacated_space: 1, is_vacated_space: 1)
+# reset:
+# Time:                14640,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 16)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 500, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of free cars is 0:
+# Time:                17650,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 16)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 500, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of uni cars is 0:
+# Time:                21660,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 16)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 500, uni_is_vacated_space: 1, is_vacated_space: 1)
+# ** Note: $stop    : F:/DSD/Extra score/tb.v(165)
+#    Time: 21670 ps  Iteration: 0  Instance: /tb_parking
+# Break in Module tb_parking at F:/DSD/Extra score/tb.v line 165
+quit -sim
+# Compile of parking.v was successful.
+# Compile of tb.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+# End time: 02:44:20 on Jun 29,2024, Elapsed time: 0:01:42
+# Errors: 0, Warnings: 3
+vsim -gui work.tb_parking
+# vsim -gui work.tb_parking 
+# Start time: 02:44:30 on Jun 29,2024
+# Loading work.tb_parking
+# Loading work.parking
+run -all
+# reset and hour is seted between 8 and 13:
+# Time:                   10,
+# 
+#         vorodi  (reset: 1, car_entered: 0, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# a uni car entered:
+# Time:                   20,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   1, parked_car:   0, uni_vacated_space: 499, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# a free car entered:
+# Time:                   30,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   1, parked_car:   1, uni_vacated_space: 499, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# a uni car exited:
+# Time:                   40,
+# 
+#         vorodi  (reset: 0, car_entered: 0, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   1, uni_vacated_space: 500, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# a free car exited:
+# Time:                   50,
+# 
+#         vorodi  (reset: 0, car_entered: 0, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# hour set to 13:
+# Time:                   60,
+# 
+#         vorodi  (reset: 0, car_entered: 0, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 13)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# hour set to 14:
+# Time:                   70,
+# 
+#         vorodi  (reset: 0, car_entered: 0, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 14)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 250, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of free cars is 0:
+# Time:                 5080,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 14)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 250, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of uni cars is 0:
+# Time:                10090,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 14)
+# 
+#         khoroji (uni_parked_car: 500, parked_car:   0, uni_vacated_space:   0, vacated_space: 250, uni_is_vacated_space: 0, is_vacated_space: 1)
+# reset:
+# Time:                10100,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 14)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 250, uni_is_vacated_space: 1, is_vacated_space: 1)
+# hour set to 16:
+# Time:                10110,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 16)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 500, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of free cars is 0:
+# Time:                15120,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 16)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 500, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of uni cars is 0:
+# Time:                17130,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 16)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 500, uni_is_vacated_space: 1, is_vacated_space: 1)
+# reset:
+# Time:                17140,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 16)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 500, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of free cars is 0:
+# Time:                20150,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 16)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 500, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of uni cars is 0:
+# Time:                24160,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 16)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 500, uni_is_vacated_space: 1, is_vacated_space: 1)
+# ** Note: $stop    : F:/DSD/Extra score/tb.v(168)
+#    Time: 24170 ps  Iteration: 0  Instance: /tb_parking
+# Break in Module tb_parking at F:/DSD/Extra score/tb.v line 168
+quit -sim
+# Compile of parking.v was successful.
+# Compile of tb.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+# End time: 02:53:53 on Jun 29,2024, Elapsed time: 0:09:23
+# Errors: 0, Warnings: 2
+vsim -gui work.tb_parking
+# vsim -gui work.tb_parking 
+# Start time: 02:54:03 on Jun 29,2024
+# Loading work.tb_parking
+# Loading work.parking
+run -all
+# reset and hour is seted between 8 and 13:
+# Time:                   10,
+# 
+#         vorodi  (reset: 1, car_entered: 0, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# a uni car entered:
+# Time:                   20,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   1, parked_car:   0, uni_vacated_space: 499, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# a free car entered:
+# Time:                   30,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   1, parked_car:   1, uni_vacated_space: 499, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# a uni car exited:
+# Time:                   40,
+# 
+#         vorodi  (reset: 0, car_entered: 0, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   1, uni_vacated_space: 500, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# a free car exited:
+# Time:                   50,
+# 
+#         vorodi  (reset: 0, car_entered: 0, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# hour set to 13:
+# Time:                   60,
+# 
+#         vorodi  (reset: 0, car_entered: 0, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 13)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# hour set to 14:
+# Time:                   70,
+# 
+#         vorodi  (reset: 0, car_entered: 0, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 14)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 250, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of free cars is 0:
+# Time:                 2590,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 14)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   1, uni_vacated_space: 500, vacated_space: 249, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of uni cars is 0:
+# Time:                 7610,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 14)
+# 
+#         khoroji (uni_parked_car: 500, parked_car:   0, uni_vacated_space:   0, vacated_space: 250, uni_is_vacated_space: 0, is_vacated_space: 1)
+# reset:
+# Time:                 7620,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 14)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 250, uni_is_vacated_space: 1, is_vacated_space: 1)
+# hour set to 16:
+# Time:                 7630,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 16)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 500, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of free cars is 0:
+# Time:                12640,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 16)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 500, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of uni cars is 0:
+# Time:                14650,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 16)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 500, uni_is_vacated_space: 1, is_vacated_space: 1)
+# reset:
+# Time:                14660,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 16)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 500, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of free cars is 0:
+# Time:                17670,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 16)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 500, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of uni cars is 0:
+# Time:                21680,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 16)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 500, uni_is_vacated_space: 1, is_vacated_space: 1)
+# ** Note: $stop    : F:/DSD/Extra score/tb.v(168)
+#    Time: 21690 ps  Iteration: 0  Instance: /tb_parking
+# Break in Module tb_parking at F:/DSD/Extra score/tb.v line 168
+quit -sim
+# End time: 04:30:03 on Jun 29,2024, Elapsed time: 1:36:00
+# Errors: 0, Warnings: 1
+# Compile of parking.v was successful.
+# Compile of tb.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_parking
+# vsim -gui work.tb_parking 
+# Start time: 04:30:11 on Jun 29,2024
+# Loading work.tb_parking
+# Loading work.parking
+run -all
+# reset and hour is seted between 8 and 13:
+# Time:                   10,
+# 
+#         vorodi  (reset: 1, car_entered: 0, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# a uni car entered:
+# Time:                   20,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   1, parked_car:   0, uni_vacated_space: 499, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# a free car entered:
+# Time:                   30,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   1, parked_car:   1, uni_vacated_space: 499, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# a uni car exited:
+# Time:                   40,
+# 
+#         vorodi  (reset: 0, car_entered: 0, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   1, uni_vacated_space: 500, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# a free car exited:
+# Time:                   50,
+# 
+#         vorodi  (reset: 0, car_entered: 0, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# hour set to 13:
+# Time:                   60,
+# 
+#         vorodi  (reset: 0, car_entered: 0, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 13)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# hour set to 14:
+# Time:                   70,
+# 
+#         vorodi  (reset: 0, car_entered: 0, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 14)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 250, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of free cars is 0:
+# Time:                 2590,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 14)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   1, uni_vacated_space: 500, vacated_space: 249, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of uni cars is 0:
+# Time:                 7610,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 14)
+# 
+#         khoroji (uni_parked_car: 500, parked_car:   0, uni_vacated_space:   0, vacated_space: 250, uni_is_vacated_space: 0, is_vacated_space: 1)
+# reset:
+# Time:                 7620,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 14)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 250, uni_is_vacated_space: 1, is_vacated_space: 1)
+# hour set to 16:
+# Time:                 7630,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 16)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 500, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of free cars is 0:
+# Time:                12640,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 16)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 500, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of uni cars is 0:
+# Time:                14650,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 16)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 500, uni_is_vacated_space: 1, is_vacated_space: 1)
+# reset:
+# Time:                14660,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 16)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 500, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of free cars is 0:
+# Time:                17670,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 16)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 500, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of uni cars is 0:
+# Time:                21680,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 16)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 500, uni_is_vacated_space: 1, is_vacated_space: 1)
+# ** Note: $stop    : F:/DSD/Extra score/tb.v(169)
+#    Time: 21690 ps  Iteration: 0  Instance: /tb_parking
+# Break in Module tb_parking at F:/DSD/Extra score/tb.v line 169
+add wave sim:/tb_parking/*
+quit -sim
+# End time: 04:34:21 on Jun 29,2024, Elapsed time: 0:04:10
+# Errors: 0, Warnings: 2
+vsim -gui work.tb_parking
+# vsim -gui work.tb_parking 
+# Start time: 04:34:27 on Jun 29,2024
+# Loading work.tb_parking
+# Loading work.parking
+add wave sim:/tb_parking/*
+run -all
+# reset and hour is seted between 8 and 13:
+# Time:                   10,
+# 
+#         vorodi  (reset: 1, car_entered: 0, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# a uni car entered:
+# Time:                   20,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 0, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   1, parked_car:   0, uni_vacated_space: 499, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# a free car entered:
+# Time:                   30,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 0, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   1, parked_car:   1, uni_vacated_space: 499, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# a uni car exited:
+# Time:                   40,
+# 
+#         vorodi  (reset: 0, car_entered: 0, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 1, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   1, uni_vacated_space: 500, vacated_space: 199, uni_is_vacated_space: 1, is_vacated_space: 1)
+# a free car exited:
+# Time:                   50,
+# 
+#         vorodi  (reset: 0, car_entered: 0, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 10)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# hour set to 13:
+# Time:                   60,
+# 
+#         vorodi  (reset: 0, car_entered: 0, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 13)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 200, uni_is_vacated_space: 1, is_vacated_space: 1)
+# hour set to 14:
+# Time:                   70,
+# 
+#         vorodi  (reset: 0, car_entered: 0, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 14)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 250, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of free cars is 0:
+# Time:                 2590,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 14)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   1, uni_vacated_space: 500, vacated_space: 249, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of uni cars is 0:
+# Time:                 7610,
+# 
+#         vorodi  (reset: 0, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 14)
+# 
+#         khoroji (uni_parked_car: 500, parked_car:   0, uni_vacated_space:   0, vacated_space: 250, uni_is_vacated_space: 0, is_vacated_space: 1)
+# reset:
+# Time:                 7620,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 14)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 250, uni_is_vacated_space: 1, is_vacated_space: 1)
+# hour set to 16:
+# Time:                 7630,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 16)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 500, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of free cars is 0:
+# Time:                12640,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 16)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 500, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of uni cars is 0:
+# Time:                14650,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 16)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 500, uni_is_vacated_space: 1, is_vacated_space: 1)
+# reset:
+# Time:                14660,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 16)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 500, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of free cars is 0:
+# Time:                17670,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 0, car_exited: 1, is_uni_car_exited: 0, hour: 16)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 500, uni_is_vacated_space: 1, is_vacated_space: 1)
+# the space of uni cars is 0:
+# Time:                21680,
+# 
+#         vorodi  (reset: 1, car_entered: 1, is_uni_car_entered: 1, car_exited: 1, is_uni_car_exited: 0, hour: 16)
+# 
+#         khoroji (uni_parked_car:   0, parked_car:   0, uni_vacated_space: 500, vacated_space: 500, uni_is_vacated_space: 1, is_vacated_space: 1)
+# ** Note: $stop    : F:/DSD/Extra score/tb.v(169)
+#    Time: 21690 ps  Iteration: 0  Instance: /tb_parking
+# Break in Module tb_parking at F:/DSD/Extra score/tb.v line 169
+quit -sim
+# End time: 05:31:54 on Jun 29,2024, Elapsed time: 0:57:27
+# Errors: 0, Warnings: 1
+vsim -gui work.tb_parking
+# vsim -gui work.tb_parking 
+# Start time: 05:36:47 on Jun 29,2024
+# Loading work.tb_parking
+# Loading work.parking
